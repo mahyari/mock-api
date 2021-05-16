@@ -1,13 +1,30 @@
 {
-  "Post": {
+  "Books": {
     "title": "string",
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "Comment[]"
+    "isbn":"string",
+    "description":"string",
+    "coverUrl":"string",
+    "authors":"Authors[]",
+    "publisher":"string",
+    "category":"Categories"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Categories":{
+    "name":"string",
+    "createdAt": "date",
+    "books":"Books[]",
+  },
+  "Authors":{
+    "name":"string",
+    "createdAt": "date"
+  },
+  "HandpickedBooks":{
+    "title":"string",
+    "views": "int",
+    "createdAt": "date",
+    "placeOrder":"int",
+    "books":"Books[]"
   }
 }
