@@ -1,32 +1,11 @@
-
 {
-  "Book": {
-    "title":"string",
-    "views":"int",
-    "published":"boolean",
-    "createdAt":"date",
-    "isbn":"string",
-    "description":"string",
-    "coverUrl":"string",
-    "authors":"Author[]",
-    "publisher":"string",
-    "category":"Category",
-    "handpickedList":"HandpickedList[]"
-  },
-  "Category":{
-    "name":"string",
-    "createdAt":"date",
-    "books":"Book[]"
-  },
-  "Author":{
-    "name":"string",
-    "createdAt":"date"
-  },
-  "HandpickedList":{
-    "title":"string",
-    "views": "int",
-    "createdAt":"date",
-    "placeOrder":"int",
-    "books":"Book[]"
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
 }
