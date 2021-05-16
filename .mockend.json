@@ -9,7 +9,8 @@
     "coverUrl":"string",
     "authors":"Authors[]",
     "publisher":"string",
-    "category":"Categories"
+    "category":"Categories",
+    "HandpickedBooks":"HandpickedBooks[]"
   },
   "Categories":{
     "name":"string",
