@@ -1,5 +1,5 @@
 {
-  "Books": {
+  "Book": {
     "title":"string",
     "views":"int",
     "published":"boolean",
@@ -7,25 +7,25 @@
     "isbn":"string",
     "description":"string",
     "coverUrl":"string",
-    "authors":"Authors[]",
+    "authors":"Author[]",
     "publisher":"string",
-    "category":"Categories",
-    "handpickedBooks":"HandpickedBooks[]"
+    "category":"Category",
+    "handpickedList":"HandpickedList[]"
   },
-  "Categories":{
+  "Category":{
     "name":"string",
     "createdAt":"date",
-    "books":"Books[]"
+    "books":"Book[]"
   },
-  "Authors":{
+  "Author":{
     "name":"string",
     "createdAt":"date"
   },
-  "HandpickedBooks":{
+  "HandpickedList":{
     "title":"string",
     "views": "int",
     "createdAt":"date",
     "placeOrder":"int",
-    "books":"Books[]"
+    "books":"Book[]"
   }
 }
