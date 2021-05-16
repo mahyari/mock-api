@@ -1,0 +1,30 @@
+{
+  "Books": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "isbn":"string",
+    "description":"string",
+    "coverUrl":"string",
+    "authors":"Authors[]",
+    "publisher":"string",
+    "category":"Categories"
+  },
+  "Categories":{
+    "name":"string",
+    "createdAt": "date",
+    "books":"Books[]",
+  },
+  "Authors":{
+    "name":"string",
+    "createdAt": "date"
+  },
+  "HandpickedBooks":{
+    "title":"string",
+    "views": "int",
+    "createdAt": "date",
+    "placeOrder":"int",
+    "books":"Books[]"
+  }
+}
